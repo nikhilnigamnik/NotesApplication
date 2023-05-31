@@ -52,7 +52,7 @@ function Note(props) {
   return (
     <div className="note" style={{ backgroundColor: props.note.color }}>
       <textarea
-        className="note_text"
+        className="note_text text-gray-800"
         defaultValue={props.note.text}
         onChange={(event) => updateText(event.target.value, props.note.id)}
       />
